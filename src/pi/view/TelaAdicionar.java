@@ -418,12 +418,7 @@ try {
             } else if (!c.getAnoCarro().matches("\\d{4}")) {
                 JOptionPane.showMessageDialog(null, "Insira um ano válido! EX: xxxx");
             } else {
-                JOptionPane.showMessageDialog(null, "Serviço cadastrado com sucesso!");
-                CodigoDAO.cadastrar(c);
-                TelaPrincipal tp = new TelaPrincipal();
-                tp.setVisible(true);
-                tp.setLocationRelativeTo(null);
-                dispose();
+               
             }
         }
     }
